@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100&family=Tangerine:wght@400;700&display=swap');
+
+@font-face {
+    font-family: "Santio";
+    font-weight: bold;
+    src: url("./../fonts/SANTIO/OTP/Santio\ Bold.otf") format("otf"),
+}
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Tangerine', cursive;*/
+
+/* Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+body .parallax {
+    background-image: url("./../img/cleo-topper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    max-width: 100vw;
+}
+
+header {
+    height: 60px;
+    text-align: right;
+
+}
+
+header img {
+    height: auto;
+    width: 20px;
+    margin: auto 4px;
+}
+
+.parallax section {
+    padding: 40px
+}
+
+.parallax .intro h1 {
+    color: #fff;
+    font-size: 38px;
+    max-width: 220px;
+    font-family: roboto;
+}
+
+.parallax .intro p {
+    color: #e7bc0e;
+    font-family: Tangerine;
+    font-size: 14px;
+}
+
+.parallax .real-life p {
+    color: #6bc1a3;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+span {
+    color: #fff;
+    background-color: grey;
+}
+
+.domestic-workers {
+    color: #e7bc0e
+}
+
+section img {
+    height: auto;
+    width: 150px
+}
+
+.paid-less {
+    color: #cb91b6;
+
+}
+
+.health-insurance {
+    color: #6bc1a3;
+}
+
+section {
+    font-family: Santio, sans-serif;
+    font-weight: bold;
+}
+
+.mostly-women {
+    color: #7eb8e1
+}
+
+.parallax section.a-hug {
+    position: relative;
+    padding: 0;
+}
+
+.a-hug img {
+    width: 100%;
+    height: auto;
+}
+
+.a-hug img.kids {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
